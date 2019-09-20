@@ -34,7 +34,8 @@ Pod::Spec.new do |s|
   #   'LineNumberTextView' => ['LineNumberTextView/Assets/*.png']
   # }
 
-  s.public_header_files = 'Pod/Classes/**/*.h'
+  s.public_header_files = 'LineNumberTextView/Classes/**/*.h'
   s.frameworks = 'Cocoa'
+  s.swift_versions = '5.0'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
