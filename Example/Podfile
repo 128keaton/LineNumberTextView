@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'LineNumberTextView_Example' do
+  pod 'LineNumberTextView', :path => '../'
+
+  target 'LineNumberTextView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
