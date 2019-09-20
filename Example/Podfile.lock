@@ -1,0 +1,16 @@
+PODS:
+  - LineNumberTextView (0.1.0)
+
+DEPENDENCIES:
+  - LineNumberTextView (from `../`)
+
+EXTERNAL SOURCES:
+  LineNumberTextView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LineNumberTextView: bc2569f31987a9f1e0f9c825885f87363ed05494
+
+PODFILE CHECKSUM: 5aee4e2e76ba1af8f30d1146fd561289ab935bbf
+
+COCOAPODS: 1.8.0.beta.2

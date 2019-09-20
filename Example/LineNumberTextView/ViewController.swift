@@ -7,21 +7,14 @@
 //
 
 import Cocoa
+import LineNumberTextView
 
 class ViewController: NSViewController {
+    @IBOutlet var exampleTextView: LineNumberTextView!
 
-  override func viewDidLoad() {
-    super.viewDidLoad()
-
-    // Do any additional setup after loading the view.
-  }
-
-  override var representedObject: Any? {
-    didSet {
-    // Update the view, if already loaded.
+    @IBAction func changeColors(_ sender: NSButton) {
+        self.exampleTextView.gutterForegroundColor = NSColor(calibratedHue: 0, saturation: 0, brightness: 0, alpha: 1)
+        self.exampleTextView.gutterBackgroundColor = NSColor(calibratedHue: 0, saturation: 0, brightness: 0.9, alpha: 1)
     }
-  }
-
-
 }
 

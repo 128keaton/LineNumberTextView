@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LineNumberTextView'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of LineNumberTextView.'
+  s.version          = '1.0.0'
+  s.summary          = 'LineNumberTextView is a simple subclass of NSTextView, which adds line numbers to the left of the text view.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,10 +17,7 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
-
+  s.description      = 'LineNumberTextView is a simple subclass of NSTextView, which adds line numbers to the left of the text view. Originally written by Raphael Hanneken. https://github.com/raphaelhanneken/line-number-text-view'
   s.homepage         = 'https://github.com/128keaton/LineNumberTextView'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
@@ -29,7 +26,7 @@ TODO: Add long description of the pod here.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.platform = :osx
-  s.osx.deployment_target = "10.10"
+  s.osx.deployment_target = "10.11"
 
   s.source_files = 'LineNumberTextView/Classes/**/*'
 
@@ -37,7 +34,7 @@ TODO: Add long description of the pod here.
   #   'LineNumberTextView' => ['LineNumberTextView/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'Cocoa'
+  s.public_header_files = 'Pod/Classes/**/*.h'
+  s.frameworks = 'Cocoa'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
